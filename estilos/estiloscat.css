@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    background-color: url('../imagenes/bg.jpg');
+}
+
+body {
+    font-family: "Open Sans", Arial, Sans-serif;
+    font-size: 16px;
+}
+
+.contenedor {
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+}
+
+/*----ESTILOS HEADER-----*/
+header {
+    width: 100%;
+    background: url('../imagenes/catalogo/fond.jpg') #9fecec;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+header .contenedor {    
+    position: relative;
+    height: 240px;
+}
+
+header .menu {
+    width: 100%;
+    text-align: center;
+}
+
+header .menu a {
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    font-weight: 500;
+    display: inline-block;
+    margin: 40px 20px;
+    text-decoration: none;
+}
+
+header .menu a:hover {
+    color: rgb(245, 68, 245);
+    text-decoration: underline;
+    margin-top: 35px;
+
+}
+
+header .texto {
+    width: 100%;
+    color: #000000;
+    position: absolute;
+    top: 50%;
+    margin-top: -8px;
+    text-align: center;
+
+}
+
+header .texto .nombre {
+    font-size: 50px;
+    font-weight: 600px;
+}
+
+header .texto h3 {
+    font-style: italic;
+    font-size: 25px;
+    font-weight: 300;
+}
+
+/*---MAIN---*/
+.main {
+    background: url('../imagenes/catalogo/bg-cat.jpg');
+    background-repeat: repeat;
+}
+
+
+.main .catlg{
+    width: 50%;
+    float: left;
+}
+
+.main .catlg .thumb img {
+    width: 90%;
+    margin-top: 20px;
+    vertical-align: top;
+   border-radius: 10px;
+}
+
+.main .cat .nombre {
+    font-size: 20px;
+    margin-bottom: 15px;
+    float: left;
+}
+
+.main .cat .precio {
+    font-size: 20px;
+    margin-bottom: 15px;
+    margin-right: 50px;
+    float: right;
+}
+
+
+.main .catlg .thumb img:hover {
+    opacity: .7;
+    border: 5px double rgba(114, 114, 114, 0.767);
+    -webkit-transition: all .3s ease;
+    -o-transition: all .3 ease;
+    transition: all .3 ease;
+}

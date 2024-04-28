@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    background-color: url('../imagenes/bg.jpg');
+}
+
+body {
+    font-family: "Open Sans", Arial, Sans-serif;
+    font-size: 16px;
+}
+
+.contenedor {
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+}
+
+/*----ESTILOS HEADER-----*/
+header {
+    width: 100%;
+    background: url('../imagenes/bg-pel.jpg') #a8a8ad;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position:center 170%;
+}
+
+header .contenedor {
+    position: relative;
+    height: 400px;
+}
+
+header .menu {
+    width: 100%;
+    text-align: center;
+}
+
+header .menu a {
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    font-weight: 500;
+    display: inline-block;
+    margin: 40px 20px;
+    text-decoration: none;
+    position: relative;
+}
+
+header .menu a:hover {
+    color: rgb(245, 68, 245);
+    text-decoration: underline;
+
+}
+
+header .texto {
+    width: 100%;
+    color: #000000;
+    position: absolute;
+    top: 50%;
+    margin-top: -52px;
+    text-align: center;
+
+}
+
+header .texto .nombre {
+    font-size: 50px;
+    font-weight: 600px;
+}
+
+header .texto .nombre span {
+    font-weight: 300;
+}
+
+/*---MAIN---*/
+
+.main .acerca-de .contenedor {
+    overflow: visible;
+    position: relative;
+}
+
+.main .acerca-de .foto {
+    width: 50%;
+    position: relative;
+    left: 5px;
+    top: -50px;
+    z-index: 0;
+    float: right;
+}
+
+.main .acerca-de .foto img {
+    vertical-align: top;
+    width: 105%;
+    border-radius: 10px;
+}
+
+.main .acerca-de article {
+    background: white;
+    padding: 47px;
+    width: 50%;
+    position: absolute;
+    top: -80px;
+    z-index: 0;
+    float: left;
+    box-shadow: -25px 25px 20px rgba(0, 0, 0, 0.466);
+}
+
+.main .acerca-de article h3 {
+    font-size: 50px;
+    font-weight: 300;
+    margin-bottom: 40px;
+
+
+}
+
+.main .acerca-de article p {
+    line-height: 28px;
+    margin-bottom: 15px;
+}
+
+.main .boton{
+    text-align: center;
+    color: #ffffff;
+    background-color: #f079a1;
+    border: 1px solid white;
+    padding: 25px;
+    opacity: .7;
+    margin-top: 80px;
+    margin-left: 650px;
+    border-radius: 50px;
+    margin-bottom: 15px;
+    border: 1px outset black;
+}
+.main .boton:hover{
+    opacity: 1;
+}

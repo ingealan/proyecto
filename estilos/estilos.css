@@ -10,8 +10,8 @@
 body {
     font-family: "Open Sans", Arial, Sans-serif;
     font-size: 16px;
+    
 }
-
 .contenedor {
     width: 90%;
     max-width: 1000px;
@@ -33,10 +33,24 @@ header .contenedor {
     height: 500px;
     
 }
+header .ikon{
+    text-align: left;
+    margin-left: 50px;
+}
+.ikon img{
+    position: absolute;
+    margin-top: 10px;
+    width: 100px;
+   
+}
+.ikon img:hover{
+    opacity: .7;
+}
 
 header .menu {
     width: 100%;
     text-align: left;
+    margin-left: 15px;
 }
 
 header .menu a {
@@ -50,7 +64,7 @@ header .menu a {
 }
 
 header .menu a:hover {
-    color: rgb(245, 68, 245);
+    color: rgb(255, 255, 255);
     text-decoration: underline;
 
 }

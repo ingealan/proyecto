@@ -33,6 +33,19 @@ header {
     background-position: center 0;
 }
 
+header .ikon{
+    text-align: left;
+    margin-left: 50px;
+}
+.ikon img{
+    position: absolute;
+    margin-top: 10px;
+    width: 100px;
+   
+}
+.ikon img:hover{
+    opacity: .7;
+}
 header .contenedor {
     position: relative;
     height: 500px;

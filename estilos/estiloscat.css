@@ -32,6 +32,19 @@ header .contenedor {
     height: 240px;
 }
 
+header .ikon{
+    text-align: left;
+    margin-left: 50px;
+}
+.ikon img{
+    position: absolute;
+    margin-top: 10px;
+    width: 100px;
+   
+}
+.ikon img:hover{
+    opacity: .7;
+}
 header .menu {
     width: 100%;
     text-align: center;
@@ -47,7 +60,7 @@ header .menu a {
 }
 
 header .menu a:hover {
-    color: rgb(245, 68, 245);
+    color: rgb(46, 175, 164);
     text-decoration: underline;
     margin-top: 35px;
 

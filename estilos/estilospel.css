@@ -27,6 +27,19 @@ header {
     background-attachment: fixed;
     background-position:center 170%;
 }
+header .ikon{
+    text-align: left;
+    margin-left: 50px;
+}
+.ikon img{
+    position: absolute;
+    margin-top: 10px;
+    width: 100px;
+   
+}
+.ikon img:hover{
+    opacity: .7;
+}
 
 header .contenedor {
     position: relative;
@@ -127,11 +140,13 @@ header .texto .nombre span {
     padding: 25px;
     opacity: .7;
     margin-top: 80px;
-    margin-left: 650px;
+    margin-left: 550px;
     border-radius: 50px;
     margin-bottom: 15px;
     border: 1px outset black;
+    
 }
+
 .main .boton:hover{
     opacity: 1;
 }
